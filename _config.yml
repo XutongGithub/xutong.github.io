@@ -1,1 +1,50 @@
-theme: jekyll-theme-cayman
+# Basic
+title: XuTong
+#subtitle: XuTong 的博客
+welcome_message: 有疑问可以添加我的微信：582714473 small world。
+description: Hello，我是徐通，iOS开发者，欢迎大家和我交流学习。
+creator: <a href="http://onev.cat">@onevcat</a>
+
+url: "http://vno.onevcat.com"
+
+permalink: /:year/:month/:title/
+
+# Format
+highlighter: rouge
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: red
+
+# The blog button should not be removed.
+blog_button:
+    title: 博客
+    description: Visit blog
+
+# Navigation buttons in the front page.
+nav:
+    - {title: 简书, description: 简书, url: 'https://www.jianshu.com/u/443bb6782db1'}
+    # - {title: Another Button, description: A button, url: 'http://example.com'}
+
+# Pagination
+gems: [jekyll-paginate]
+paginate: 10
+paginate_path: "page/:num/"
+
+# Comment
+comment:
+    disqus: xutong
+    # duoshuo: 
+    
+# Social
+social:
+#    weibo: onevcat
+    github: https://github.com/XutongGithub
+    twitter: https://twitter.com/xutong1993
+#    gplus: 107108267983477358170
+    mail: xushunlin520@icloud.com
+    wechat: 18350118070
+
+# Google Analytics
+ga:
+    # id: your_ga_id
+    # host: your_host
